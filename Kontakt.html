@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="Home.html"><p align="center">Mehanic Innvations, Software & Solutions<br>
+                <b>MISS - Blagojević</b></p></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="Home.html">Početna stranica</a></li>
+                <li><a href="O nama.html">O nama</a></li>
+                <li><a href="Usluge.html">Usluge</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+				<li><a href="Demo.html">Demo</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="contentK">
+        <div class="forma">
+            <fieldset>
+                <legend class="l">Lični podaci</legend>
+                <table>
+                    <tr class="form">
+                        <td>Ime: </td>
+                        <td><input id="ime" type="text"/></td>
+                        <td>Prezime: </td>
+                        <td><input id="prezime" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr class="form">
+                        <td colspan="2">Naslov teksta:</td>
+                    </tr>
+                    <tr class="form">
+                        <td colspan="2"><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr class="form">
+                        <td colspan="2">Tekst poruke:</td>
+                    </tr>
+                    <tr class="form">
+                        <td colspan="3"><textarea id="tekst" cols="38" rows="8" maxlength="1000"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr class="form">
+                        <td>Telefon: </td>
+                        <td><input id="tel" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr class="form">
+                        <td colspan="3">Izaberite način slanja: </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>E-mail</option>
+                                <option>SMS</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr class="form">
+                        <td colspan="4" align="center"><button onclick="proveri()">Pošalji</button></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <div class="contact">
+            <p> Kontakt telefon: +381 11 6598 348<br>
+                E-mail: MISS_Blagojevic@live.com<br>
+                Fax: +381 11 6598 347<br>
+                Adresa: Neznanog junaka 98
+            </p>
+        </div>
+        <div class="mapa" id="map">
+        </div>
+    </div>
+    <div class="footerK">
+        <ul>
+            <li class="f1">© Copyright 2017. All rights reserved.</li>
+        </ul>
+    </div>
+</body>
+</html>
